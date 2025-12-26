@@ -59,7 +59,6 @@ fs.readFile("tasks.json", "utf-8", (err, data) => {
     // list command
   } else if (command === "list") {
     if (tasks.length === 0) {
-      
       return;
     }
     console.log("Tasks:");
@@ -83,7 +82,6 @@ fs.readFile("tasks.json", "utf-8", (err, data) => {
     if (isNaN(number)) {
       return;
     } else if (number < 1 || number > tasks.length) {
-      
       return;
     }
     tasks.splice(number - 1, 1);
