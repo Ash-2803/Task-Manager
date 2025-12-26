@@ -63,7 +63,8 @@ fs.readFile("tasks.json", "utf-8", (err, data) => {
     }
     console.log("Tasks:");
     tasks.forEach((item, index) => {
-      const GREEN = "\x1b[32m";
+      // Using Colors 
+      const GREEN = "\x1b[32m"; 
       const YELLOW = "\x1b[33m";
       const RESET = "\x1b[0m";
       if (taskText === "done" && item.completed === true) {
