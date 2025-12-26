@@ -59,7 +59,7 @@ fs.readFile("tasks.json", "utf-8", (err, data) => {
     // list command
   } else if (command === "list") {
     if (tasks.length === 0) {
-      console.log("Tasks not found");
+      
       return;
     }
     console.log("Tasks:");
@@ -81,10 +81,9 @@ fs.readFile("tasks.json", "utf-8", (err, data) => {
   } else if (command === "delete") {
     const number = parseInt(taskText);
     if (isNaN(number)) {
-      console.log("Enter a valid number to delete");
       return;
     } else if (number < 1 || number > tasks.length) {
-      console.log("Invalid number to delete the task ");
+      
       return;
     }
     tasks.splice(number - 1, 1);
