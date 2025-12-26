@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1766602511065,
+    "text": "Wake Up Early Morning",
+    "completed": true,
+    "createdAt": "2025-12-24T18:55:11.065Z"
+  },
+  {
+    "id": 1766602513943,
+    "text": "Study for 4 hours",
+    "completed": true,
+    "createdAt": "2025-12-24T18:55:13.943Z"
+  },
+  {
+    "id": 1766602515739,
+    "text": "Writing the next phase to this to do list ",
+    "completed": true,
+    "createdAt": "2025-12-24T18:55:15.739Z"
+  }
+]
